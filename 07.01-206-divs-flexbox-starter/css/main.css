@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #483D8B;
+  background-color: #252577;
   height: 100%;
   width: 100%;
 }
@@ -110,6 +110,36 @@ body {
   color: #fff;
 }
 
+header {
+  background-color: #252577;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #FF00FF;
+  font-size: 3em;
+  }
+
+  footer {
+    background-color: #252577;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FF00FF;
+    font-size: 1.5em;
+    
+  }
+
+  .header-paragraph {
+      font-size: 1.5em;
+      border: 2px solid  #FF00FF;
+      text-align: center;
+      padding: 20px;
+  }
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   
@@ -117,12 +147,13 @@ body {
   justify-content: space-between;
   flex-flow: row wrap;
   align-items: center;
+  
 }
 
-.div-1, .div-2, .div-3  {
-    color: #ffffff;
-      /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+ /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
 
+.div-1, .div-2, .div-3  {
+  color: #ffffff;
   font-size: 1.25em;
   display: flex;
   width: 30%;
@@ -130,14 +161,18 @@ body {
   justify-content: center;
   align-items: center;
   line-height: 1.5em;
+  padding: 0 0 10px 20px;
 }
 
-.div-1, .div-2 {
-    border-right: .5px solid whitesmoke; 
-}
+    
+
 
 p {
     padding-right: 35px;
+}
+
+a {
+    color: white;
 }
 
 
